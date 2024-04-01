@@ -1,0 +1,34 @@
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    @page {
+        margin: 0;
+    }
+}
+html, body {
+    width: 210mm; /* Width of A4 */
+    height: 297mm; /* Height of A4 */
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 210mm; /* Width of A4 */
+    max-height: 297mm; /* Height of A4 */
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.textOverlay {
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+}
